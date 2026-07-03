@@ -5,6 +5,6 @@ class FirstProgram{
 
         // this is is used for Comment or information without affecting the code
 
-        
+
     }
 }
