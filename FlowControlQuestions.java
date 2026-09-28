@@ -18,23 +18,28 @@ public class FlowControlQuestions {
 
     //2 WAP to print all are equal if all have same value or print biggest value of three numbers using if else statement.
 
-    int a = myobj.nextInt();
-    int b = myobj.nextInt();
-    int c = myobj.nextInt();
+    // int a = myobj.nextInt();
+    // int b = myobj.nextInt();
+    // int c = myobj.nextInt();
 
-    if(a==b && b==c){
-        System.out.print("All are Equal");
-    }
-    else if(a>b &&a>c){
-        System.out.print(a +" = Bigger Number is A");
-    }
-    else if(b>a && b>c){
-        System.out.print(b +" =bigger Number is B");
-    }
+    // if(a==b && b==c){
+    //     System.out.print("All are Equal");
+    // }
+    // else if(a>b &&a>c){
+    //     System.out.print(a +" = Bigger Number is A");
+    // }
+    // else if(b>a && b>c){
+    //     System.out.print(b +" =bigger Number is B");
+    // }
 
-    else{
-        System.out.print(c + " = bigger Number is C");
-    }
+    // else{
+    //     System.out.print(c + " = bigger Number is C");
+    // }
+
+    char a = myobj.next().charAt(0);
+    
+    //
+
     }
 }
 
