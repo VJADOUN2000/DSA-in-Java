@@ -33,7 +33,7 @@ public class FirstCode{
         //String n1= sc.next(); // in this next only string will print till without spaces
         String n2 =sc.nextLine();
         System.out.println(n2);
-
+        
     }
 }
 
