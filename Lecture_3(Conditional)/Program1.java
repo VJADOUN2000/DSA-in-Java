@@ -42,34 +42,53 @@ public class Program1 {
 
 
         // ==============Make a calculator with switch case===============>
-        System.out.print("Enter number A: ");    
-        int a =sc.nextInt();
+        // System.out.print("Enter number A: ");    
+        // int a =sc.nextInt();
 
-        System.out.print("Enter number b: ");    
-        int b =sc.nextInt();
-        System.out.println("Select option from 1 to 5: ");
-        System.out.println("1. Addition\n2. Subtraction\n3. Division\n4. Multiplication\n5. Modulo");
-        int option = sc.nextInt();
+        // System.out.print("Enter number b: ");    
+        // int b =sc.nextInt();
+        // System.out.println("Select option from 1 to 5: ");
+        // System.out.println("1. Addition\n2. Subtraction\n3. Division\n4. Multiplication\n5. Modulo");
+        // int option = sc.nextInt();
 
-        switch(option){
+        // switch(option){
+        //     case 1:
+        //         System.out.println(a+b);
+        //         break;
+        //     case 2:
+        //         System.out.println(a-b);
+        //         break;
+        //     case 3:
+        //         System.out.println(a/b);
+        //         break;
+        //     case 4:
+        //         System.out.println(a*b);
+        //         break;
+        //     case 5:
+        //         System.out.println(a%b);
+        //         break;
+        //     default:
+        //         System.out.println("Invalid Input");    
+        // }
+
+        int choice = sc.nextInt();
+
+        switch (choice) {
             case 1:
-                System.out.println(a+b);
+                System.out.println("Hello");
                 break;
             case 2:
-                System.out.println(a-b);
+                System.out.println("Namaste");
                 break;
             case 3:
-                System.out.println(a/b);
-                break;
-            case 4:
-                System.out.println(a*b);
-                break;
-            case 5:
-                System.out.println(a%b);
+                System.out.println("Boujour");
                 break;
             default:
-                System.out.println("Invalid Input");    
+                System.out.println("Invalid Input");
+                break;
         }
+
+        
     }
     
 }
