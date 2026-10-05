@@ -21,5 +21,27 @@ public class Program {
             j++;
         }
 
+
+        //==============Do-While loop====================
+
+
+        int k =11;
+
+        do{
+            System.out.print(k); // it will run one time even if the condition is wrong
+        } while(k<11);
+
+
+        // Q print the sum of n number
+
+        int n =10;
+        int sum =0;
+        for(int i= 0;i<=n;i++){
+            sum =sum +i;
+
+        }
+
+        System.out.println(sum);
+
     }
 }
