@@ -52,7 +52,7 @@ public class Pattern {
                 //Q4. Print the inverted half pyramid 
 
                 for(int i=c;i>=1;i--){
-                    for(int j=i;j>=1;j--){
+                    for(int j=1;j<=i;j++){
                         System.out.print("* ");
                     }
                     System.out.println();
