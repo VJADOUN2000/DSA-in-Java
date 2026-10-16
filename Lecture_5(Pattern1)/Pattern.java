@@ -60,12 +60,30 @@ public class Pattern {
 
                 //Q5. Make inverted half pyramid
 
+                // for(int i=1;i<=c;i++){
+                //     for(int j=1;j<=c-i;j++){
+                //         System.out.print("  ");
+                //     }
+                //     for(int k=1;k<=i;k++){
+                //         System.out.print("* ");
+                //     }
+                //     System.out.println();
+                // }
+
+                //Q6. Print the pattern but use Numbers
+
+                // for(int i=1;i<=c;i++){
+                //     for(int j=1;j<=i;j++){
+                //         System.out.print(j+" ");
+                //     }
+                //     System.out.println();
+                // }
+
+                //Q7 Inverted numbers printed
+
                 for(int i=1;i<=c;i++){
                     for(int j=1;j<=c-i;j++){
-                        System.out.print("  ");
-                    }
-                    for(int k=1;k<=i;k++){
-                        System.out.print("* ");
+                        System.out.print(j+" ");
                     }
                     System.out.println();
                 }
